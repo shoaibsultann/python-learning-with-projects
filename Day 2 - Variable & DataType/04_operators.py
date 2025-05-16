@@ -35,5 +35,19 @@ print (num) # this will return True, as statement is correct
 
 # Logical Operators
 
+# Truth table of AND operate
+print("True and Ture is", True and True)
+print("True and False is", True and False)
+print("False and Ture is", False and True)
+print("False and False is", False and False)
+
+# Truth table of OR operate
+print("True and Ture is", True or True)
+print("True and False is", True or False)
+print("False and Ture is", False or True)
+print("False and False is", False or False)
+
+# NOT operator make false into true and true into false
+print(not(False))
 
 
