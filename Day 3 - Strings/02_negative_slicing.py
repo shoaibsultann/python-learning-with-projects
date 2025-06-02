@@ -8,3 +8,10 @@ print(negativeSlicing2)
 print(name[:6])
 print(name[3:])
 
+# slicing with skip value
+
+b = "abcdefghijklmnopqestuvwxyz"
+sliceSkip = b[1:9]
+sliceSkip2 = b[1:9:3]
+print(sliceSkip)
+print(sliceSkip2)
